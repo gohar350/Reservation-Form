@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="./CSS/Reservation.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Travel Reservation Form</h1>
+        <h2>* Donates Mandatory</h2>
+        <label for="fname">First name*</label><br>
+        <input type="text" id="fname" name="fname" placeholder="First Name Last Name"><br><br>
+        <label for="email">Email Address*</label><br>
+        <input type="text" id="email" name="email" ><br><br>
+        <!--Drop down Menu-->
+        <label for="plan">Select Your Package*</label><br>
+
+        <select name="plan" id="plan">
+            <option value="Basic">Basic</option>
+            <option value="Duo">Duo</option>
+            <option value="Family">Family</option>
+        </select><br><br>
+        <!--Finish DropDowns-->
+        <label for="date">Arival Date*</label><br>
+        <input type="date" id="date" name="date" placeholder="mm/dd/yyyy"><br><br>
+
+        <!--CheckBox-->
+        <label for="offer">What would you want to avail?*</label><br>
+        <input type="checkbox" id="Bording" name="Bording" value="Boarding">
+        <label for="Bording">Boarding</label><br>
+        <input type="checkbox" id="Food" name="Food" value="Food">
+        <label for="Food">Food</label><br>
+        <input type="checkbox" id="SV" name="SV" value="SV">
+        <label for="SightView">Sight View</label><br><br>
+        <!--End Checkbox-->
+
+        <label for="count">No of Persons*</label><br>
+        <input type="text" id="count" name="count" placeholder="No of Persons"><br><br>
+        <label for="DC">Discount Coupon Code</label><br>
+        <input type="text" id="DC" name="DC" placeholder="Discount Coupon Code"><br><br>
+
+        <!--Radio Button-->
+        <label for="Radio">Terms and Conditions*</label><br>
+        <input type="radio" id="A" name="Terms" value="I Agree">
+        <label for="A">I Agree</label>
+        <input type="radio" id="D" name="Terms" value="I Disagree">
+        <label for="D">I Disagree</label><br>
+
+
+        <!--Submit Button-->
+        <input type="submit" value="Compute Reservation">
+
+
+    </div>
+    
+</body>
+</html>
